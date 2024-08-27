@@ -1,0 +1,31 @@
+2024-08-24 00:28:27.436 [main] INFO  codenbox.testBase.Base - Clicked on My Account Link
+2024-08-24 00:28:27.538 [main] INFO  codenbox.testBase.Base - Clicked on My Login Link
+2024-08-24 00:28:27.952 [main] INFO  codenbox.testBase.Base - Entered email for login
+2024-08-24 00:28:28.070 [main] INFO  codenbox.testBase.Base - Entered password for login
+2024-08-24 00:28:28.166 [main] INFO  codenbox.testBase.Base - Clicked on login button for login function
+2024-08-24 00:28:29.279 [main] INFO  codenbox.testBase.Base - account page verification
+2024-08-24 00:28:29.350 [main] INFO  codenbox.testBase.Base - Login Test failed
+2024-08-24 00:34:11.679 [main] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-24 00:34:11.695 [main] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-24 00:34:11.929 [main] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-24 00:34:12.799 [main] INFO  codenbox.testBase.Base - Entered customer registration details..
+2024-08-24 00:34:12.916 [main] INFO  codenbox.testBase.Base - Clicked on Privacy Policy 
+2024-08-24 00:34:13.131 [main] INFO  codenbox.testBase.Base - Clicked on Continue button 
+2024-08-24 00:34:14.097 [main] INFO  codenbox.testBase.Base - validating expected Vs actual message
+2024-08-24 00:34:14.099 [main] INFO  codenbox.testBase.Base - **Completed RegistrationTest**
+2024-08-24 00:34:20.984 [main] INFO  codenbox.testBase.Base - ****Starting Login Test****
+2024-08-24 00:34:20.985 [main] INFO  codenbox.testBase.Base - Clicked on My Account Link
+2024-08-24 00:34:21.227 [main] INFO  codenbox.testBase.Base - Clicked on My Login Link
+2024-08-24 00:34:21.586 [main] INFO  codenbox.testBase.Base - Entered email for login
+2024-08-24 00:34:21.636 [main] INFO  codenbox.testBase.Base - Entered password for login
+2024-08-24 00:34:21.659 [main] INFO  codenbox.testBase.Base - Clicked on login button for login function
+2024-08-24 00:34:22.170 [main] INFO  codenbox.testBase.Base - account page verification
+2024-08-24 00:34:32.198 [main] INFO  codenbox.testBase.Base - Login Test failed
+2024-08-24 00:34:38.202 [main] INFO  codenbox.testBase.Base - ****Starting Login Test****
+2024-08-24 00:34:38.202 [main] INFO  codenbox.testBase.Base - Clicked on My Account Link
+2024-08-24 00:34:38.455 [main] INFO  codenbox.testBase.Base - Clicked on My Login Link
+2024-08-24 00:34:38.808 [main] INFO  codenbox.testBase.Base - Entered email for login
+2024-08-24 00:34:38.852 [main] INFO  codenbox.testBase.Base - Entered password for login
+2024-08-24 00:34:38.867 [main] INFO  codenbox.testBase.Base - Clicked on login button for login function
+2024-08-24 00:34:39.228 [main] INFO  codenbox.testBase.Base - account page verification
+2024-08-24 00:34:49.264 [main] INFO  codenbox.testBase.Base - Login Test failed

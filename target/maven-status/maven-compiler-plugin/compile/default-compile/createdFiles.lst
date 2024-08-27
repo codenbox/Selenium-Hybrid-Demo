@@ -1,0 +1,5 @@
+pageObjects\MyAccountPage.class
+pageObjects\LoginPage.class
+pageObjects\RegistrationPage.class
+pageObjects\BaseComponents.class
+pageObjects\HomePage.class

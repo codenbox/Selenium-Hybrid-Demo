@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Regression"></include>
+			<!-- <exclude name=""></exclude> -->	
+		</run>
+	</groups>
+	<parameter name="Browser" value="chrome"></parameter>
+	<parameter name="OS" value="windows"/>
+	
+	<listeners>
+		<listener class-name="codenbox.utilities.ExtentReporterNG"/>
+		<listener class-name="codenbox.utilities.TestTransformer"/> 
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="codenbox.testCases.RegistrationTest" />
+		 	<class name="codenbox.testCases.LoginTest"/> 
+			<!--   <class name="codenbox.testCases.LoginDatDrivenTest"/> -->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

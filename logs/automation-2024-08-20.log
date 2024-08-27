@@ -1,0 +1,50 @@
+2024-08-20 15:11:24.365 [main] INFO  codenbox.testBase.Base - Login Test failed
+2024-08-20 23:27:35.297 [TestNG-tests-3] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:27:35.297 [TestNG-tests-1] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:27:35.322 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:27:35.322 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:27:35.379 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:27:35.403 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:27:51.650 [TestNG-tests-1] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:27:51.650 [TestNG-tests-3] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:27:51.650 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:27:51.650 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:27:51.705 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:27:51.727 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:41.301 [TestNG-tests-2] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:30:41.301 [TestNG-tests-3] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:30:41.301 [TestNG-tests-1] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:30:41.317 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:30:41.317 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:30:41.317 [TestNG-tests-2] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:30:41.556 [TestNG-tests-2] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:41.770 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:41.978 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:42.890 [TestNG-tests-2] INFO  codenbox.testBase.Base - Entered customer registration details..
+2024-08-20 23:30:48.234 [TestNG-tests-1] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:30:48.235 [TestNG-tests-2] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:30:48.235 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:30:48.235 [TestNG-tests-2] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:30:48.471 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:48.682 [TestNG-tests-2] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:57.636 [TestNG-tests-3] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:30:57.637 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:30:57.704 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:30:58.668 [TestNG-tests-3] INFO  codenbox.testBase.Base - Entered customer registration details..
+2024-08-20 23:30:59.075 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on Privacy Policy 
+2024-08-20 23:30:59.113 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on Continue button 
+2024-08-20 23:31:00.050 [TestNG-tests-3] INFO  codenbox.testBase.Base - validating expected Vs actual message
+2024-08-20 23:31:00.052 [TestNG-tests-3] INFO  codenbox.testBase.Base - **Completed RegistrationTest**
+2024-08-20 23:40:42.389 [TestNG-tests-3] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:40:42.389 [TestNG-tests-2] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:40:42.389 [TestNG-tests-1] INFO  codenbox.testBase.Base - ***Starting RegistrationTest ***
+2024-08-20 23:40:42.407 [TestNG-tests-2] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:40:42.407 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:40:42.407 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on My Account link
+2024-08-20 23:40:42.650 [TestNG-tests-3] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:40:42.864 [TestNG-tests-2] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:40:43.069 [TestNG-tests-1] INFO  codenbox.testBase.Base - Clicked on register link
+2024-08-20 23:40:43.704 [TestNG-tests-2] INFO  codenbox.testBase.Base - Entered customer registration details..
+2024-08-20 23:55:55.072 [TestNG-tests-1] INFO  codenbox.testBase.Base - ****Starting Login Test****
+2024-08-20 23:55:55.072 [TestNG-tests-3] INFO  codenbox.testBase.Base - ****Starting Login Test****
+2024-08-20 23:55:55.072 [TestNG-tests-2] INFO  codenbox.testBase.Base - ****Starting Login Test****
