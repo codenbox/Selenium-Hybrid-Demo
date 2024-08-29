@@ -35,7 +35,7 @@ public class Base {
 	public Logger logger;
 	public Properties prop;
 	public FileInputStream fs;
-	
+
 	@BeforeMethod (alwaysRun=true)
 	@Parameters({"Browser"})
 	public void setup(String browserName) throws IOException {
@@ -65,7 +65,7 @@ public class Base {
 		driver.get(prop.getProperty("baseUrl"));
 		driver.manage().window().maximize();
 	}
-	
+	//will run end of each test csae
 	@AfterMethod (alwaysRun=true)
 	public void tearDown() {
 		driver.quit();
