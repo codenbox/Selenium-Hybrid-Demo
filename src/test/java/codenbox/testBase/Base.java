@@ -20,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -38,14 +39,50 @@ public class Base {
 
    // will run before every test cases
 	@BeforeMethod (alwaysRun=true)
-	@Parameters({"Browser"})
-	public void setup(String browserName) throws IOException {
+	@Parameters({"OS","Browser"})
+	public void setup(String osName,String browserName) throws IOException {
 		prop=new Properties();
 		fs=new FileInputStream("./src//test//resources//data.properties");  // will connect with the file
 		prop.load(fs); // will load the file 
 		
 		logger=LogManager.getLogger(); //load log4j from xml
+
+	//remote or grid test env options
+		if(prop.getProperty("test_env").equalsIgnoreCase("remote")) {
+		DesiredCapabilities cap=new DesiredCapabilities();
+	//		cap.setPlatform(Platform.WIN11);
+	//		cap.setBrowserName("chrome");
 		
+		//os
+		if(osName.equalsIgnoreCase("linux")) {
+			cap.setPlatform(Platform.LINUX);
+		}
+		else if(osName.equalsIgnoreCase("mac")) {
+			cap.setPlatform(Platform.MAC);
+		}
+		else {
+			System.out.println("OS IS NOT MATCHING!");
+			return;
+		}
+		
+		//browser
+		switch(browserName.toLowerCase()) 
+		{
+		case "chrome": cap.setBrowserName("chrome"); break;	
+		case "firefox": cap.setBrowserName("firefox");break;
+		case "edge" : cap.setBrowserName("MicrosoftEdge");break;
+		default:System.out.println("Browser doesn't exist"); return;
+		}
+		//hub URL =ip address of hub machine+hub port+/wd/hub
+		//ip address of hub machine= http://192.168.2.50
+
+		String huburl="http://localhost:4444/wd/hub";
+		 driver=new RemoteWebDriver(new URL(huburl), cap);
+		
+	}	
+		
+		//local test env options
+		if(prop.getProperty("test_env").equalsIgnoreCase("local")) {
 		switch(browserName.toLowerCase()) 
 		{
 		case "chrome": driver=new ChromeDriver(); break;
@@ -59,6 +96,7 @@ public class Base {
 		case "firefox": driver=new FirefoxDriver();break;
 		case "edge" : driver=new EdgeDriver();break;
 		default:System.out.println("Browser doesn't exist"); return;
+		}
 		}
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
