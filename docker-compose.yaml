@@ -12,8 +12,7 @@ services:
 
   node-chrome:
     image: selenium/node-chrome
-    volumes:
-      - /dev/shm:/dev/shm
+    shm_size: 2gb
     depends_on:
       - selenium-hub
     environment:
@@ -24,8 +23,7 @@ services:
       - selenium
   node-firefox:
     image: selenium/node-firefox
-    volumes:
-      - /dev/shm:/dev/shm
+    shm_size: 2gb
     depends_on:
       - selenium-hub
     environment:
